@@ -4,6 +4,14 @@ body {
 .navbar {
 	border-radius: 0px
 }
+.navbar-brand img {
+	height: 100%;
+	width: 70.188px
+}
+.headimg {
+	height: 94.5px;
+	width: 351px
+}
 .mainhead { 
 	height: 100px;
 	width: 100%;
@@ -17,4 +25,12 @@ body {
 }
 .mainbod {
 	height: 200vh
+}
+footer {
+	bottom: 0;
+	width: 100%;
+	background-color: #34495e;
+	position: relative;
+	height: 50vh;
+	color: #fff
 }
