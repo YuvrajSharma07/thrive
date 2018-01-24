@@ -61,17 +61,17 @@
 				<div class="col-md-6">
 				<div class="container">
 					<h1 style="padding-left: 20px">We'd love to hear from you!</h1>
-					<form>
+					<form action="form.php" method="POST" name="remarks">
 						<div class="form-group">
-							<input type="email" class="form-control" placeholder="Name">
+							<input type="name" class="form-control" placeholder="Name" name="name">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" placeholder="Email">
+							<input type="email" class="form-control" placeholder="Email" name="email">
 						</div>
 						<div class="form-group">
-							<textarea class="form-control" type="something" placeholder="Say something..."></textarea>
+							<textarea class="form-control" type="something" placeholder="Say something..." name="message"></textarea>
 						</div>
-						<button type="submit" class="btn btn-info">Submit</button>
+						<button type="submit" name="submit" class="btn btn-info">Submit</button>
 					</form>
 					</div>
 					<div class="container">
@@ -95,6 +95,13 @@
 	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.css"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="gen_validatorv31.js"></script>
 	<script src="index.js"></script>
+	<script>
+			var frmvalidator  = new Validator("myemailform");
+			frmvalidator.addValidation("name","req","Please provide your name"); 
+			frmvalidator.addValidation("email","req","Please provide your email"); 
+			frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+		</script>
 	</body>
 </html>

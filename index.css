@@ -45,7 +45,7 @@ button, input, textarea {
 footer {
 	bottom: 0;
 	width: 100%;
-	background-color: #34495e;
+	background-color: #aaa;
 	position: relative;
 	height: 50vh;
 	color: #fff;
@@ -53,4 +53,37 @@ footer {
 b {
 	font-weight: 900;
 	font-size: 1.8rem
+}
+.item img {
+	width: 100%
+}
+footer .aleft, footer .aright {
+	height: auto;
+	padding: 0px
+}
+footer .aright ul li {
+	list-style-type: none;
+	padding: 10px;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+footer .aright .aright {
+	padding-top: 5rem
+}
+.aleft, .aright {
+	width: 50%;
+	position: relative;
+	height: 100%;
+	padding: 15rem;
+}
+.aleft {
+	float: left;
+}
+.aright {
+	float: right;
+}
+.scl {
+	width: 30%;
+	height: 30%;
+	padding: 2rem
 }
