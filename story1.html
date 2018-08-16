@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>The Thrive Magazine | Contact Us</title>
+	<title>The Thrive Magazine | Stories</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
@@ -20,7 +20,7 @@
 		.affix {
 			top:0;
 			width: 100%;
-			z-index: 9999 !important;
+			z-index: 99 !important;
 		}
 		.navbar {
 			margin-bottom: 0px;
@@ -49,46 +49,23 @@
 						<ul class="nav navbar-nav">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About Us</a></li>
-							<li class="active"><a href="contact.html">Contact Us</a></li>
-							<li><a href="stories.html">Stories</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li class="active"><a href="stories.html">Stories</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</nav> 
+		
 		<div class="mainbod">
-			<div class="row">
-				<div class="col-md-6">
-				<div class="container">
-					<h1 style="padding-left: 20px">We'd love to hear from you!</h1>
-					<form action="form.php" method="POST" name="remarks">
-						<div class="form-group">
-							<input type="name" class="form-control" placeholder="Name" name="name">
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control" placeholder="Email" name="email">
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" type="something" placeholder="Say something..." name="message"></textarea>
-						</div>
-						<button type="submit" name="submit" class="btn btn-info">Submit</button>
-					</form>
-					</div>
-					<div class="container">
-						<h2>Email</h2>
-						<ul class="list-unstyled" style="padding-left: 20px">
-							<li><a>thrivemag@tagoreint.com</a></li>
-							<li><a>tisbreakingbarriers@gmail.com</a></li>
-						</ul>
-						<h2>Social Media</h2>
-						<ul class="list-inline">
-							<li><a href="https://www.facebook.com/breakingbarriers.tis/" class="smlinks" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-							<li><a href="https://www.instagram.com/rainbowpride___/" class="smlinks" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						</ul>
-					</div>
-				</div>
+			<div class="container text-center">
+				<h1 style="padding: 20px">Stories</h1>
+			</div>
+			<div class="container">
+				
 			</div>
 		</div>
+		
 		<footer>
 			<div class="aleft">
 				<img src="lib/school%20logo.png" class="scl">
@@ -110,13 +87,6 @@
 	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.css"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="gen_validatorv31.js"></script>
 	<script src="index.js"></script>
-	<script>
-			var frmvalidator  = new Validator("form validation");
-			frmvalidator.addValidation("name","req","Please provide your name"); 
-			frmvalidator.addValidation("email","req","Please provide your email"); 
-			frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-		</script>
 	</body>
 </html>
