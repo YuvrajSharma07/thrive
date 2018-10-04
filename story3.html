@@ -33,6 +33,16 @@
 	</style>
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 		<header class="mainhead text-center"><img src="lib/logomin.png" class="headimg"></header>
 		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="100">
 			<div class="container-fluid">
@@ -59,8 +69,10 @@
 		
 		<div class="mainbod">
 			<div class="container">
+				<div class="container banner ban3"></div>
+				<br><br><a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a>
 				<h1 class="text-center" style="padding: 20px">Universal Love<div class="text-right"> - Pulak Jain</div></h1>
-				<p>
+				<p class="para">
 					In a number of countries, the right for LBGT+ to marry is being legalised. It’s great to see some change happening in the world. I always felt sad for those who couldn’t fully express themselves, who they actually were and who they actually loved. I sometimes thought about what these people would have gone through or are going through when they have to hide their true identities. I’m sure some would have faced and are still facing a lot of pressure from their friends and family to not reveal their identities publicly. I don’t know how many people have ended their lived because of this pressure.<br><br>
 									For instance, in India there is so much pressure that the LGBT community faces, that it becomes unimaginable. The mental and physical trauma they go through is unbearable. I have seen people bullying LGBT+ people like they are some kind of aliens. They’re actually creatures from god like all of us and have right to whatever human beings do.<br><br>
 									It just breaks my heart when I see people with a cheap mentality around me. A guy wearing a pink shirt is often characterised as gay and I fail to understand why. Is it because of our stereotypical thinking that pink is a feminine colour or is it because we like troubling innocent people for no good reason and who just want to live happily and freely like all of us? I don’t really get what exactly the point is behind this. Maybe it is how people usually are.<br><br>
@@ -69,6 +81,11 @@
 									The current situation of the LGBT+ community is sad as people are deprived of their rights and have to hide their identities. What could be worse than hiding yourself and your identity from the world and just following the crowd?<br><br>
 									“Being a feminist, I believe in equality and feminism is not about women being superior to men, it’s about women and men being equal, possessing equal rights and freedom, anywhere in the world and not just few countries. I also feel it’s just wrong to categorise people or naming them as LGBT (lesbian, gay, bisexual and transgender) because these people are not different but they’re just like us. I don’t think there is a need to term a group of people because they love someone of their own choice and not the world’s choice. Love is universal. At last the change has started, I am waiting for it to spread across the globe so that everyone can have a happily ever after.”<br><br>
 				</p>
+				<a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a><br><br>
+				<div class="container banner ban3"></div><br><br>
+				<center>
+				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="10"></div>
+				</center>
 			</div>
 		</div>
 		<footer>
@@ -81,7 +98,7 @@
 					</div>
 				</div>
 		</footer>
-	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.css"></script>
+	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="index.js"></script>

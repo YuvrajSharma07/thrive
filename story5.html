@@ -33,6 +33,16 @@
 	</style>
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 		<header class="mainhead text-center"><img src="lib/logomin.png" class="headimg"></header>
 		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="100">
 			<div class="container-fluid">
@@ -59,16 +69,23 @@
 		
 		<div class="mainbod">
 			<div class="container">
+				<div class="container banner ban5"></div>
+				<br><br><a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a>
 				<h1 class="text-center" style="padding: 20px">We Hate Crimes<div class="text-right"> - Urvi Ambekar</div></h1>
-				<p>
+				<p class="para">
 					Scrolling through my newsfeed, little other than this sole recurring thought strikes me:  it’s the same old vicious cycle. Over and over and over and over again. They hate. We fight. They hate more. We fight more. They still hate, we still fight. But they couldn’t care a whit less. They keep hating. We keep fighting. We’ve got to keep fighting till they stop hating. <br><br>
 					This is, with certainty, easier said than done. And appears to me rather futile in its attempts, at least at this point. It is natural to feel this way, for what is the point of squeezing every speck of grit you have in you only to have it yield essentially nothing fruitful? It is natural to dampen down, to start losing hopes in bits like specks of glitter coming off the tiara you got at the dollar store.<br><br>
 					But loving who you want to isn’t, apparently. And neither is being who you want to.  Or anything else that attempts to even slightly deviate from this rock-hard paradigm that boxes patriarchy and every other social construct toxic for a contemporary society that seeks little more than freedom in all possible aspects, and still struggles for needs that are rather mundane to grant, in insight.<br><br>
 					Meanwhile, on goes the cycle, with the haters and the fighters – two ironically enthusiastic performers of this otherwise tired old dance. Times are bad, to put it very mildly. But we’ve come too far and we’re too close to finally making it to give up now. That still is a very feeble argument considering that ‘giving up’ is simply not a prerogative for those campaigning for something as rudimentary as the basic human rights to exist freely.<br><br>
 					It floors me how strong hate is, how much stronger it grows with each passing day, particularly when the slope should be going downward. Instead, it goes wayward and causes people to be unimaginably terrible to each other, causes them pain, causes them to refrain, causes so many cries and watching their friends die. How fixated we are with the seemingly harmless little box, that the feeblest attempt to break out of it is met with retributions better suited in the hands of the devil. The word is powerful enough in its executions to drive the most vile ambitions and deeds to action.<br><br>
-					Is it is so hard for them to understand, though? That people are who they are, that they can’t control who they are, that they just want to be who they are. That no one would choose to face their spite and malice, if it weren’t for the fact that they are born that way. My idols say it, too. It’s about time everyone understood. That love is love is love is love is love is love is love is love. Cannot be killed or swept aside. If only we could drill into their heads what Lin-Manuel Miranda put so simply, it would be a much simpler world.<br><br>
+					Is it is so hard for them to understand, though? That people are who they are, that they can’t control who they are, that they just want to be who they are. That no one would choose to face their spite and malice, if it weren’t for the fact that they are born that way. My idols say it, too. It’s about time everyone understood. That love is love. Cannot be killed or swept aside. If only we could drill into their heads what Lin-Manuel Miranda put so simply, it would be a much simpler world.<br><br>
 					Where people are free to love and live and be heard and give, give back the love they get and the support that they are met with. Where the thought of expecting an accepting response to the three words that sometimes spend a lifetime eating dust in people's closets doesn’t seem so Utopian. Where rainbows and acceptance don’t seem so idealistically far-fetched.
 				</p>
+				<a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a><br><br>
+				<div class="container banner ban5"></div><br><br>
+				<center>
+				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="10"></div>
+				</center>
 			</div>
 		</div>
 		
@@ -82,7 +99,7 @@
 					</div>
 				</div>
 		</footer>
-	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.css"></script>
+	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="index.js"></script>

@@ -33,6 +33,16 @@
 	</style>
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 		<header class="mainhead text-center"><img src="lib/logomin.png" class="headimg"></header>
 		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="100">
 			<div class="container-fluid">
@@ -59,8 +69,10 @@
 		
 		<div class="mainbod">
 			<div class="container">
+				<div class="container banner"></div>
+				<br><br><a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a>
 				<h1 class="text-center" style="padding: 20px">Where there is life, there is hope.<div class="text-right"> - Khushboo Jain</div></h1>
-				<p>
+				<p class="para">
 					“Whither has fled the visionary gleam, where is it now the glory and dream?” Wordsworth once wrote. The persons belonging to the LGBT community have come to the frontlines, like fearless roaring lions, often seen standing bravely despite deep wounds that have been inflicted upon them as a casual practice by the common masses.<br><br>
 									We are in the middle of a revolution that is abundant in colours, enthusiasm, and forms of art that liberate the soul. We are fighters armed with courage, eyes filled with hope and a heart of steel that refuses to be conquered by defeat or adversity.<br><br>
 									The Supreme Court of India, in its judgement of the Naz foundation case inflicted a severe blow upon the gay community by decriminalising Sec. 377 of the Indian penal code that defines sexual intercourse between the same sexes as an unnatural offence. If found guilty under this code, the law sentences imprisonment for life or up to 10 years.<br><br>
@@ -74,6 +86,11 @@
 									Hope lives in various forms and the much-criticised Supreme court earned our blessings through its widely celebrated NALSA judgment in 2014, where the Bench of Justices K.S. Radhakrishnan and A.K. Sikri said that the “recognition of transgender as a third gender is not a social or medical issue but a human rights issue. Trans* people are also citizens of India. The spirit of the Constitution is to provide equal opportunity to every citizen to grow and attain their potential, irrespective of caste, religion or gender.”<br><br>
 									With respect to the subject of sexual freedom and expression it may seem that the worst has already happened, but the best is still to come. We shall create the best ourselves with dauntless perseverance, standing strong, knowing that we’re not wrong. It becomes a lot easier when we have the timeless support of Sigmund Freud who wrote ‘homosexuality is assuredly no advantage, but it is nothing to be ashamed of, no vice, no degradation; it cannot be classified as an illness. Many highly respectable individuals of ancient and modern times have been homosexuals, several of the greatest men among them. (Plato, Michelangelo, Leonardo da Vinci, etc). It is a great injustice to persecute homosexuality as a crime – and a cruelty, too.’
 				</p>
+				<a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a><br><br>
+				<div class="container banner"></div><br><br>
+				<center>
+				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="10"></div>
+				</center>
 			</div>
 		</div>
 		
@@ -87,7 +104,7 @@
 					</div>
 				</div>
 		</footer>
-	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.css"></script>
+	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="index.js"></script>

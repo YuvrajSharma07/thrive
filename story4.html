@@ -33,6 +33,16 @@
 	</style>
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 		<header class="mainhead text-center"><img src="lib/logomin.png" class="headimg"></header>
 		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="100">
 			<div class="container-fluid">
@@ -59,8 +69,10 @@
 		
 		<div class="mainbod">
 			<div class="container">
+				<div class="container banner ban4"></div>
+				<br><br><a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a>
 				<h1 class="text-center" style="padding: 20px">Sohini Chakrabarti’s Interview</h1>
-				<p>
+				<p class="para">
 					<ol>
 						<h4><li>What gave you the inspiration to start Breaking Barriers?</li></h4>
 										I have always been against the idea of division. I despise the concept on two grounds- first, division cannot possibly remain among equals; it necessarily becomes an exclusionary process that marginalizes those who do not represent the mainstream narrative. Second, it is arbitrary, based on no real differences, but social constructs and conditioning. Gender strikes me as a particularly arbitrary form of social division, giving rise to inequalities, that have no real bases. It is, therefore, that at the beginning of High School, I initiated Breaking Barriers, a gay-straight (GSA) of sorts, which has. over the years, much to great delight, taken a more cross-sectional form. This collective was established to spread awareness about variation in gender and sexuality, and normalize 'non-conformity'.
@@ -77,6 +89,11 @@
 										It is important to understand that it’s not about actively getting hurt yourself, it is about the kind of negativity which exists in society and which you’re allowing to exist and is actively oppressive towards some. It is only through this common consciousness of young people can we save the planet from its certain end.
 									</ol>
 				</p>
+			<a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a><br><br>
+			<div class="container banner ban4"></div><br><br>
+			<center>
+				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="10"></div>
+				</center>
 			</div>
 		</div>
 		
@@ -90,7 +107,7 @@
 					</div>
 				</div>
 		</footer>
-	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.css"></script>
+	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="index.js"></script>

@@ -33,6 +33,16 @@
 	</style>
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 		<header class="mainhead text-center"><img src="lib/logomin.png" class="headimg"></header>
 		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="100">
 			<div class="container-fluid">
@@ -59,8 +69,10 @@
 		
 		<div class="mainbod">
 			<div class="container">
+				<div class="container banner ban2"></div>
+				<br><br><a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a>
 				<h1 class="text-center" style="padding: 20px">He, she or?<div class="text-right"> - Anirudha Singha Roy</div></h1>
-				<p>
+				<p class="para">
 					We all have grown up hearing jokes and gags about trans* people. We have been accustomed to ridicule them as Chaka or Hijra. But have we really thought about the plight of these people? The challenges these people go through?<br><br>
 					<b>Manabi Bandyopadhyay</b>, India’s first transgender college principal in a recent interview said she suffered emotional and physical abuse from her family and peers when she was a college student and was even suspended by college authorities due to her refusal to behave as a heterosexual.<br><br>
 					Khushwant Singh in his portrayal of <b>Bhagwati</b>, a female –Hijera prostitute from Lal Kuan, New Delhi talks about the pain and difficulty this community goes through. He points out how they face rejection in every field. Their parents disown them; they have noshelter, no healthcare facilities or job opportunities.<br><br>
@@ -75,6 +87,11 @@
 					Gandhi was a sensitive <b>‘man’</b>; Rani Lakshmi Bai was a courageous <b>‘woman’</b>.<br><br>
 					So, was Gandhi feminine or Lakshmi Bai masculine?<br><br>
 					We need to shatter our self-formed barriers and accept all as one. One true and pure creation of nature. Beyond that everyone is unique and is entitled to be so. </p>
+				<a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a><br><br>
+				<div class="container banner ban2"></div><br><br>
+				<center>
+				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="10"></div>
+				</center>
 			</div>
 		</div>
 		
@@ -88,7 +105,7 @@
 					</div>
 				</div>
 		</footer>
-	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.css"></script>
+	<script src="https://yuvrajsharma07.github.io/Web_Development_Folder/Libraries/ripple_effect_v0.3/ripple_effect_v0.3/ripple_effect.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="index.js"></script>

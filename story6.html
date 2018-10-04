@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>The Thrive Magazine | Contact Us</title>
+	<title>The Thrive Magazine | Stories</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
@@ -20,7 +20,7 @@
 		.affix {
 			top:0;
 			width: 100%;
-			z-index: 9999 !important;
+			z-index: 99 !important;
 		}
 		.navbar {
 			margin-bottom: 0px;
@@ -33,6 +33,16 @@
 	</style>
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
 		<header class="mainhead text-center"><img src="lib/logomin.png" class="headimg"></header>
 		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="100">
 			<div class="container-fluid">
@@ -49,46 +59,36 @@
 						<ul class="nav navbar-nav">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About Us</a></li>
-							<li class="active"><a href="contact.html">Contact Us</a></li>
-							<li><a href="stories.html">Stories</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<li class="active"><a href="stories.html">Stories</a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</nav> 
+		
 		<div class="mainbod">
-			<div class="row">
-				<div class="col-md-6">
-				<div class="container">
-					<h1 style="padding-left: 20px">We'd love to hear from you!</h1>
-					<form action="form.php" method="POST" name="remarks">
-						<div class="form-group" data-ripple-effect>
-							<input type="name" class="form-control" placeholder="Name" name="name">
-						</div>
-						<div class="form-group">
-							<input type="email" class="form-control" placeholder="Email" name="email">
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" type="something" placeholder="Say something..." name="message"></textarea>
-						</div>
-						<button type="submit" name="submit" class="btn btn-info">Submit</button>
-					</form>
-					</div>
-					<div class="container">
-						<h2>Email</h2>
-						<ul class="list-unstyled" style="padding-left: 20px">
-							<li><a>thrivemag@tagoreint.com</a></li>
-							<li><a>tisbreakingbarriers@gmail.com</a></li>
-						</ul>
-						<h2>Social Media</h2>
-						<ul class="list-inline">
-							<li><a href="https://www.facebook.com/breakingbarriers.tis/" class="smlinks" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" data-ripple-effect></i></a></li>
-							<li><a href="https://www.instagram.com/rainbowpride___/" class="smlinks" target="_blank"><i class="fa fa-instagram" aria-hidden="true" data-ripple-effect></i></a></li>
-						</ul>
-					</div>
-				</div>
+			<div class="container">
+				<div class="container banner ban6"></div>
+				<br><br><a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a>
+				<h1 class="text-center" style="padding: 20px">The Freedom to Love <div class="text-right"> - Tanya Agarwal</div></h1>
+				<center><i style="font-size: 1.5rem">What makes life meaningful is love. The right that makes us human is the right to love.</i></center><br><br>
+				<p class="para">
+					<b>The Supreme Court on Thursday, 9th September 8, 2018, decriminalized homosexuality</b> with a prayer to the LGBTI+ community to forgive history for their brutal suppression. <br><br>
+					A 5 judge Constitution Bench, led by the <b>Chief Justice of India, Dipak Misra</b> unanimously held that criminalization of private consensual sexual conduct between adults of the same sex under <b>Section 377</b> of the Indian Penal Code is clearly <b>unconstitutional</b>. <br><br>
+					The court, however, held that Section 377 will apply to “unnatural” sexual acts like bestiality. Sexual acts without consent too, continues to be a crime under the section. <br><br>
+					“To change the social bias and root out of the weed, it is the foremost duty of each one of us to stand up and speak up against the slightest form of discrimination against our people. Let us move from darkness to light, from bigotry to tolerance – to a more inclusive society,” the Chief Justice wrote in an opinion shared by the Bench.<br><br>
+					Though this a huge achievement for the LGBT community in India, it is just the first step. We have just won a battle in the war of social, economic and political rights for the community, we still have a long way to go. 
+
+				</p>
+				<a class="btn btn-default" href="stories.html" data-ripple-effect>Back to Stories...</a><br><br>
+				<div class="container banner ban6"></div><br><br>
+			<center>
+				<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="10"></div>
+				</center>
 			</div>
 		</div>
+		
 		<footer>
 			<div class="aleft">
 				<a href="http://www.tagoreint.com/vv/V2.0/" target="_blank"><img src="lib/school%20logo.png" class="scl"></a>
